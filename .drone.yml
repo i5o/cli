@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: node:6-stretch
+  commands:
+  - npm install
+  - npm test
+
+trigger:
+ event:
+  - tag
