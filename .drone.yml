@@ -5,10 +5,13 @@ steps:
 - name: publish
   image: plugins/npm
   settings:
-    username: i5o
+    username:
+      from_secret: npm_user
     password:
       from_secret: npm_password
-    email: ignacio@ole.org
-  when:
-    event:
-    - tag
+    email:
+      from_secret: npm_email
+
+trigger:
+  event:
+  - tag
