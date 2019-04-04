@@ -1,17 +1,17 @@
 {
-  "name": "@treehouses/cli",
+  "name": "@i5o/cli",
   "version": "1.5.12",
   "description": "Thin command-line interface for Raspberry Pi low level configuration.",
   "main": "cli.sh",
   "bin": {
-    "treehouses": "cli.sh"
+    "i5o": "cli.sh"
   },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/treehouses/cli.git"
+    "url": "https://github.com/i5o/cli.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
@@ -22,12 +22,12 @@
   "author": {
     "name": "OLE tech team",
     "email": "vi@ole.org",
-    "url": "https://treehouses.io"
+    "url": "https://i5o.io"
   },
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/treehouses/cli/issues",
+    "url": "https://github.com/i5o/cli/issues",
     "email": "vi@ole.org"
   },
-  "homepage": "https://github.com/treehouses/cli"
+  "homepage": "https://github.com/i5o/cli"
 }

@@ -2,11 +2,13 @@ kind: pipeline
 name: default
 
 steps:
-- name: build
-  image: node:6-stretch
-  commands:
-  - npm install
-  - npm test
+- name: publish
+  image: plugins/npm
+  settings:
+    username: i5o
+    password:
+      from_secret: npm_password
+    email: ignacio@ole.org
   when:
     event:
-    - push
+    - tag
