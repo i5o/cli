@@ -7,7 +7,6 @@ steps:
   commands:
   - npm install
   - npm test
-
-trigger:
- event:
-  - tag
+  when:
+    event:
+    - push
