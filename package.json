@@ -1,6 +1,6 @@
 {
   "name": "@i5o/cli",
-  "version": "1.5.12",
+  "version": "1.6.0",
   "description": "Thin command-line interface for Raspberry Pi low level configuration.",
   "main": "cli.sh",
   "bin": {
